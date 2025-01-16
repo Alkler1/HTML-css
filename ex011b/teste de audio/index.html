@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste com arquivo de audio</title>
+</head>
+<body>
+  
+  <p>teste número 1</p>
+    <audio id="audio1" src="midia/NeverPlayJeremyBlake.mp3" ></audio>
+    <audio id="audio2" src="midia/Dopamina.mp3" ></audio>
+
+<button onclick="playAudio(1)">Tocar Áudio 1</button>
+<button onclick="playAudio(2)">Tocar Áudio 2</button>
+
+<script>
+  function playAudio(audioNumber) {
+    document.querySelectorAll('audio').forEach(
+        audio => (audio.id == `audio${audioNumber}`)? (audio.paused? audio.play(): audio.pause()) : audio.pause()
+    );
+  }
+</script>
+</body>
+</html>

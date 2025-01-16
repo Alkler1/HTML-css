@@ -1,0 +1,54 @@
+
+body {
+    background-color: rgb(42, 34, 49);
+}
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(148, 93, 170);
+    text-align: center;
+}
+#imagem1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100%, -100%);
+}
+#imagem2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(3%, -100%);
+}
+#imagem3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100%, 3%);
+}
+#imagem4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(3%, 3%);
+}
+#videoposition {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 50;
+}
+#imagemback {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 400%);
+}
+#mensagem1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 600%);
+        color: rgb(148, 93, 170);
+        font-size: x-large;
+}

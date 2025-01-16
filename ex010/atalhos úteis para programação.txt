@@ -1,0 +1,6 @@
+ctrl + shift + p para abrir a barra de pesquisa e envelopar um texto com outros códigos
+alt segurar essa tecla enquanto escolhe as tags que quer adicionar parametros permite 
+escrever mais de um parametro ao mesmo tempo.
+quando for adicionar o nome de um arquivo que está dentro da pasta principal, como o nome de 
+um arquivo na tag âncora, basta apertar ctrl + backspace que o VS code puxa os arquivos
+ disponiveis
